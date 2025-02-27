@@ -1,23 +1,24 @@
-function Props(props) {
+const Tugas6 = () => {
     return (
         <div className="welcome">
             <div className="card">
-                <h1>Data diri peserta kelas ReactJS</h1>
+                <h1>Data diri perserta kelas ReactJS</h1>
                 <hr />
                 <ul>
                     <li>
-                        <b>Nama lengkap :</b> {props.name}
+                        <b>Nama Lengkap : </b> Muhamad Aziz
                     </li>
                     <li>
-                        <b>Email :</b> {props.email}
+                        <b>Email :</b> muhamadaziz564@gmail.com
                     </li>
                     <li>
-                        <b>Batch Pelatihan :</b> {props.batch}
+                        <b>Batch Pelatihan :</b> 64
                     </li>
                 </ul>
             </div>
         </div>
+
     )
 }
 
-export default Props
+export default Tugas6
