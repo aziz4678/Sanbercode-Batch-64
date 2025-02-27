@@ -1,4 +1,4 @@
-function Props(props) {
+function Tugas7(props) {
     return (
         <div className="welcome">
             <div className="card">
@@ -20,4 +20,4 @@ function Props(props) {
     )
 }
 
-export default Props
+export default Tugas7
