@@ -29,11 +29,21 @@ const Tugas8 = () => {
           <h1>Counter</h1>
           <hr />
           <h2>{angka}</h2>
-          <p>{message}</p> 
+          <p>{message}</p>
+          {angka === 0 ? (
+            <p>Angka sekarang adalah nol.</p>
+          ) : angka > 0 ? (
+            <p>Angka positif!</p>
+          ) : (
+            <p>Angka negatif!</p>
+          )}
 
           <div>
-            <button onClick={handleTambah}>Tambah</button>
-            <button onClick={handleKurang}>Kurang</button>
+            {angka < 1 ? (
+              <button onClick={handleTambah}>Tambah</button>
+            ) : (
+              <button onClick={handleKurang}>Kurang</button>
+            )}
           </div>
         </center>
       </div>
